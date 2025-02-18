@@ -1,0 +1,197 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Light background color for overall page */
+    color: #333; /* Text color */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #0277bd; /* Primary color for header */
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for header */
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #01579b; /* Darker shade for hover effect */
+    border-radius: 5px;
+}
+
+/* Section Styles */
+.section {
+    padding: 40px 0;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow for sections */
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #0277bd; /* Heading color */
+}
+
+.section img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Light shadow for form */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #333;
+}
+
+input[type="text"], input[type="email"], input[type="date"], input[type="password"], select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #0277bd; /* Primary button color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #01579b; /* Darker shade for hover effect */
+}
+
+/* Grid and Card Styles */
+.grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(50% - 20px);
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card h3 {
+    padding: 20px;
+    font-size: 1.8rem;
+    margin: 0;
+    background-color: #0288d1; /* Card header color */
+    color: #fff;
+    text-align: center;
+}
+
+.card p {
+    padding: 20px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.button {
+    display: block;
+    text-align: center;
+    background-color: #0277bd; /* Primary button color */
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 500;
+    border-top: 1px solid #ddd;
+    transition: background-color 0.3s;
+    font-size: 1.1rem;
+}
+
+.button:hover {
+    background-color: #01579b; /* Darker shade for hover effect */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #0288d1; /* Footer background color */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top: 5px solid #0277bd;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
